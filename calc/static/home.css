@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    display: flexbox;
+    background-color: whitesmoke;
+    margin-top: 8%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 4%;
+}
+
+.form-group {
+
+
+    margin-bottom: 1.9%;
+    text-transform: capitalize;
+}
+
+.form-controll {
+    width: 95%;
+    text-transform: capitalize;
+    outline: none;
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+    border: solid 3px #3b71ca;
+    padding: 1%;
+    /* border: none;
+    border-bottom: 2px solid #3b71ca; */
+    background-color: whitesmoke;
+
+}
+
+.form-control2 {
+    text-transform: capitalize;
+    outline: none;
+    width: 25%;
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+    border: solid 3px #3b71ca;
+    padding: 1%;
+    background-color: whitesmoke;
+}
+
+/* .form-controll:focus {
+    outline: none !important;
+    border: none !important;
+    border-bottom: 3.2px solid #3b71ca !important;
+    background-color: whitesmoke;
+} */
+
+#rst {
+    width: 20%;
+    margin-top: 2%;
+    text-transform: capitalize;
+}
+
+#btns {
+    display: inline;
+}
+
+.reset {
+    display: inline;
+}
+
+.btn {
+    font-size: larger;
+    margin-right: 0.7%;
+
+}
+
+@media only screen and (min-width:150px) and (max-width:768px) {
+
+    #main {
+        padding: 8%;
+        margin-top: 20%;
+        width: 98%;
+    }
+
+    #rst {
+        width: 50%;
+    }
+
+    .btn {
+        font-size: medium;
+        cursor: pointer;
+        margin-right: 3%;
+        margin-bottom: 4%;
+    }
+
+    .form-group {
+        margin-bottom: 8%;
+    }
+
+    .form-controll {
+        width: 99%;
+        padding: 2%;
+    }
+
+    .form-control2 {
+        width: 80%;
+        padding: 2%;
+    }
+
+    #btns {
+        display: inline;
+    }
+
+    .reset {
+        display: inline !important;
+    }
+
+
+
+
+}
